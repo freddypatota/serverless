@@ -18,3 +18,5 @@ steps:
       - "--image"
       - "$_ARTIFACT_REGION-docker.pkg.dev/$PROJECT_ID/my-repo/dockercloudbuildyaml"
       - "jokes"
+options:
+  logging: CLOUD_LOGGING_ONLY
